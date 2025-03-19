@@ -10,3 +10,4 @@ class DeviceType(Enum):
     LAPTOP = 'LAPTOP'
     COMPUTER = 'COMPUTER'
     SERVER = 'SERVER'
+    DEVICE_PART = 'DEVICE_PART'

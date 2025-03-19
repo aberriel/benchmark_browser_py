@@ -1,0 +1,45 @@
+# -*- coding: utf-8 -*-
+
+from commons.models import (
+	Brand,
+	Manufacturer,
+	DevicePartType,
+	DeviceType,
+	OperationalSystem)
+
+class Device:
+	def __init__(self, manufacturer: Manufacturer = None,
+				 brand: Brand = None,
+				 d_type: DeviceType = None,
+				 dp_type: DevicePartType = None,
+				 model: str = None,
+				 device_models: list[],
+				 launch_date: str = None,
+				 launch_os: OperationalSystem = None,
+				 length: float = None,
+				 width: float = None,
+				 height: float = None,
+				 weight: float = None,
+				 screen: Screen = None,
+				 screen_system: ScreenSystem = None,
+				 ram: int = None,
+				 storage: int = None,
+				 camera_system: CameraSystem = None,
+				 selfie_camera: Camera = None,
+				 processor: Processor = None,
+				 gpu: GPU = None,
+				 wifi: WiFi = None,
+				 bluetooth: Bluetooth = None,
+				 battery_type: str = None,
+				 battery_size: int = None,
+				 wired_charge_max: int = None,
+				 wireless_charge_max: int = None,
+				 magsafe_support: bool = False,
+				 qi2_support: bool = False,
+				 reverse_wireless: bool = False,
+				 performance_tests: list = [],
+				 sar_head: float = None,
+				 sar_body: float = None,
+				 sar_eu_head: float = None,
+				 sar_eu_body: float = None):
+		pass

@@ -1,0 +1,56 @@
+# -*- coding: utf-8 -*-
+
+
+class GPU:
+    def __init__(self, manufacturer: Manufacturer = None,
+                 brand: Brand = None,
+                 model: str = None,
+                 frequency: float = None,
+                 frequency_turbo: float = None,
+                 generation: int = None,
+                 lithograph: int = None,
+                 max_displays: int = 0,
+                 compute_units: int = None,
+                 shader: int = None,
+                 hardware_raytracing: bool = False,
+                 frame_generation: str = None,
+                 max_memory: int = None,
+                 directx_version: int = None,
+                 codec_jpeg_encode: bool = False,
+                 codec_jpeg_decode: bool = False,
+                 codec_vc_1_encode: bool = False,
+                 codec_vc_1_decode: bool = False,
+                 codec_avc_encode: bool = False,
+                 codec_avc_decode: bool = False,
+                 codec_av1_encode: bool = False,
+                 codec_av1_decode: bool = False,
+                 codec_vp8_encode: bool = False,
+                 codec_vp8_decode: bool = False,
+                 codec_h264_encode: bool = False,
+                 codec_h264_decode: bool = False):
+        self.manufacturer = manufacturer
+        self.brand = brand
+        self.model = model
+        self.frequency = frequency
+        self.frequency_turbo = frequency_turbo
+        self.generation = generation
+        self.lithograph = lithograph
+        self.max_displays = max_displays
+        self.compute_units = compute_units
+        self.shader = shader
+        self.hardware_raytracing = hardware_raytracing
+        self.frame_generation = frame_generation
+        self.max_memory = max_memory
+        self.directx_version = directx_version
+        self.codec_jpeg_encode = codec_jpeg_encode
+        self.codec_jpeg_decode = codec_jpeg_decode
+        self.codec_vc_1_encode = codec_vc_1_encode
+        self.codec_vc_1_decode = codec_vc_1_decode
+        self.codec_avc_encode = codec_avc_encode
+        self.codec_avc_decode = codec_avc_decode
+        self.codec_av1_encode = codec_av1_encode
+        self.codec_av1_decode = codec_av1_decode
+        self.codec_vp8_encode = codec_vp8_encode
+        self.codec_vp8_decode = codec_vp8_decode
+        self.codec_h264_encode = codec_h264_encode
+        self.codec_h264_decode = codec_h264_decode
